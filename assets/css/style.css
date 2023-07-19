@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Raleway', sans-serif;
+  color: white;
+
+}
+
+body{
+  background: black;
+}
+
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+
+header{
+  height: 73px;
+  text-align: center;
+
+}
+
+header h1{
+  font-size: 59px;
+}
+
+#iguana{
+  background: transparent url('../img/bg-header.jpg') 0% 0% no-repeat padding-box;
+  height: 727px;
+  opacity: 1;
+  background-size: cover;
+}
+
+.descripcion{
+  display: flex;
+}
+
+.descripcion-parrafo{
+  height: 197px;
+  width: 475px;
+  margin-top: 75px;
+  margin-left: 150px;
+  margin-right: 106px;
+}
+
+.descripcion-parrafo p{
+  font-size: 16px;
+  letter-spacing: 0px;
+  padding-top: 15px;
+
+}
+
+.descripcion .iguana-1{
+  height: 237px;
+  width: 399px;
+  margin-top: 45px;
+  margin-right: 150px;
+  margin-bottom: 66px;
+}
+
+.caracteristica h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.caracteristica{
+  background: #1E1A13 0% 0% no-repeat padding-box;
+  height: 348px;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+
+.caracteristica-content{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.caracteristica-content i{
+  height: 56px;
+  width: 40px;
+  font-size: 50px;
+}
+
+.caracteristica-content p{
+  font-size: 25px;
+}
+
+.galeria{
+  height: 348px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.galeria img{
+  width: 316px;
+  height: 202px;
+  margin: 0 16px;
+}
+
+footer{
+  height: 102px;
+  background : #1E1A13;
+  font-size: 20px;
+  text-align: center;
+  line-height: 102px;
+}
+
